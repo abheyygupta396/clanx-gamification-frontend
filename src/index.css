@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🔥 SHADCN REQUIRED VARIABLES (NO @apply HERE) */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222.2 84% 4.9%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 84% 4.9%;
+
+  --border: 270 20% 90%;
+  --input: 270 20% 90%;
+
+  --ring: 270 91% 65%;
+
+  --radius: 0.75rem;
+}
+
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: white;
+  color: #111827;
+}
