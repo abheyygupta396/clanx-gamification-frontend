@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Tabs = () => {
   const tabs = ["General", "Preferences", "Gamification"];
-  const [activeTab, setActiveTab] = useState("General");
+  const [activeTab, setActiveTab] = useState("Gamification");
 
   return (
     <>
