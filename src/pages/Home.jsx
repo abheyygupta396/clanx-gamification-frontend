@@ -11,7 +11,7 @@ const Home = () => {
       <Tabs />
       <GamificationHero />
 
-      <div className="grid grid-cols-3 gap-6 mt-8">
+      <div className="grid grid-cols-3 gap-6 mt-8 absolute top-96 pt-0 pr-10 pb-4 pl-4">
         <FeatureCard
           icon={<Gift />}
           title="Reward Your Ambassadors"
