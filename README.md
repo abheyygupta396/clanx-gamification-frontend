@@ -55,4 +55,4 @@ This is a landing page application built with JavaScript, React, HTML, and CSS.
 - Pixel-perfect UI
 
 ## Live Demo
-- https://clanx-gamification-landing.vercel.app/
+- https://clanx-gamification-frontend.vercel.app/
